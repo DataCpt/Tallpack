@@ -65,10 +65,7 @@
           "config": {
             "allowed_placement": {
               "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             "direction": "up",
             "layers": [
@@ -129,10 +126,7 @@
           "config": {
             "allowed_placement": {
               "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             "direction": "up",
             "layers": [
@@ -193,10 +187,7 @@
           "config": {
             "allowed_placement": {
               "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             "direction": "up",
             "layers": [
@@ -257,10 +248,7 @@
           "config": {
             "allowed_placement": {
               "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             "direction": "up",
             "layers": [

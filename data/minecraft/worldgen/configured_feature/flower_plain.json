@@ -40,9 +40,7 @@
               }
             ],
             "noise": {
-              "amplitudes": [
-                1.0
-              ],
+              "amplitudes": [1.0],
               "firstOctave": 0
             },
             "scale": 0.005,

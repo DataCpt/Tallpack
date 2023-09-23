@@ -1,10 +1,6 @@
 {
   "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
+    "air": ["minecraft:cave", "minecraft:cave_extra_underground", "minecraft:canyon"]
   },
   "downfall": 0.4,
   "effects": {
@@ -28,13 +24,8 @@
   "features": [
     [],
     [],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -67,10 +58,7 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [
-      "minecraft:sculk_vein",
-      "minecraft:sculk_patch_deep_dark"
-    ],
+    ["minecraft:sculk_vein", "minecraft:sculk_patch_deep_dark"],
     [],
     [
       "minecraft:glow_lichen",
@@ -83,9 +71,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

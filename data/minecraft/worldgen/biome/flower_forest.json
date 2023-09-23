@@ -1,10 +1,6 @@
 {
   "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
+    "air": ["minecraft:cave", "minecraft:cave_extra_underground", "minecraft:canyon"]
   },
   "downfall": 0.8,
   "effects": {
@@ -27,17 +23,9 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -71,10 +59,7 @@
       "minecraft:disk_gravel"
     ],
     [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
+    ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
       "minecraft:flower_forest_flowers",
@@ -86,9 +71,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},

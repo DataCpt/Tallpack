@@ -25,20 +25,12 @@
               "predicates": [
                 {
                   "type": "minecraft:solid",
-                  "offset": [
-                    0,
-                    1,
-                    0
-                  ]
+                  "offset": [0, 1, 0]
                 },
                 {
                   "type": "minecraft:matching_fluids",
                   "fluids": "minecraft:water",
-                  "offset": [
-                    0,
-                    1,
-                    0
-                  ]
+                  "offset": [0, 1, 0]
                 }
               ]
             }
@@ -57,10 +49,7 @@
     },
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": [
-        "minecraft:dirt",
-        "minecraft:mud"
-      ]
+      "blocks": ["minecraft:dirt", "minecraft:mud"]
     }
   }
 }

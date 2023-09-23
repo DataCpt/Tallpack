@@ -13,11 +13,7 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [
-    [
-      "minecraft:end_island_decorated"
-    ]
-  ],
+  "features": [["minecraft:end_island_decorated"]],
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {

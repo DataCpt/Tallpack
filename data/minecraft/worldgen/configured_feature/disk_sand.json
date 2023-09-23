@@ -21,11 +21,7 @@
           "if_true": {
             "type": "minecraft:matching_blocks",
             "blocks": "minecraft:air",
-            "offset": [
-              0,
-              -1,
-              0
-            ]
+            "offset": [0, -1, 0]
           },
           "then": {
             "type": "minecraft:simple_state_provider",
@@ -38,10 +34,7 @@
     },
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": [
-        "minecraft:dirt",
-        "minecraft:grass_block"
-      ]
+      "blocks": ["minecraft:dirt", "minecraft:grass_block"]
     }
   }
 }

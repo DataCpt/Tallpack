@@ -14,8 +14,8 @@
   "noise": {
     "height": 1024,
     "min_y": -256,
-    "size_horizontal": 1,
-    "size_vertical": 2
+    "size_horizontal": 2,
+    "size_vertical": 4
   },
   "noise_router": {
     "barrier": {
@@ -45,10 +45,10 @@
                   "type": "minecraft:mul",
                   "argument1": {
                     "type": "minecraft:y_clamped_gradient",
-                    "from_value": 0.0,
+                    "from_value": 0.4,
                     "from_y": -257,
-                    "to_value": 1.0,
-                    "to_y": -245
+                    "to_value": 0.75,
+                    "to_y": -240
                   },
                   "argument2": {
                     "type": "minecraft:add",
@@ -241,8 +241,8 @@
     "lava": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_lava",
-      "xz_scale": 1.0,
-      "y_scale": 1.0
+      "xz_scale": 2.5,
+      "y_scale": 2.5
     },
     "ridges": "minecraft:overworld/ridges",
     "temperature": {
@@ -361,11 +361,11 @@
         "if_true": {
           "type": "minecraft:vertical_gradient",
           "false_at_and_above": {
-            "above_bottom": 24
+            "above_bottom": 64
           },
           "random_name": "minecraft:bedrock_floor",
           "true_at_and_below": {
-            "above_bottom": 0
+            "above_bottom": -24
           }
         },
         "then_run": {

@@ -3,9 +3,9 @@
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
     "from_value": 2.75,
-    "from_y": -364,
-    "to_value": -2.85,
-    "to_y": 924
+    "from_y": -368,
+    "to_value": -2.88,
+    "to_y": 920
   },
   "argument2": "minecraft:overworld/offset"
 }

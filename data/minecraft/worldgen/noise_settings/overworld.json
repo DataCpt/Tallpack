@@ -45,9 +45,9 @@
                   "type": "minecraft:mul",
                   "argument1": {
                     "type": "minecraft:y_clamped_gradient",
-                    "from_value": 0.4,
-                    "from_y": -257,
-                    "to_value": 0.75,
+                    "from_value": 1.0,
+                    "from_y": -256,
+                    "to_value": 1.0,
                     "to_y": -240
                   },
                   "argument2": {
@@ -185,8 +185,8 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
-          "from_value": 0.0,
-          "from_y": -257,
+          "from_value": 1.0,
+          "from_y": -256,
           "to_value": 1.0,
           "to_y": -245
         },
@@ -282,7 +282,7 @@
               "type": "minecraft:range_choice",
               "input": "minecraft:y",
               "max_exclusive": 102.0,
-              "min_inclusive": -250.0,
+              "min_inclusive": -256.0,
               "when_in_range": {
                 "type": "minecraft:noise",
                 "noise": "minecraft:ore_vein_a",
@@ -301,7 +301,7 @@
               "type": "minecraft:range_choice",
               "input": "minecraft:y",
               "max_exclusive": 102.0,
-              "min_inclusive": -250.0,
+              "min_inclusive": -256.0,
               "when_in_range": {
                 "type": "minecraft:noise",
                 "noise": "minecraft:ore_vein_b",
@@ -320,7 +320,7 @@
         "type": "minecraft:range_choice",
         "input": "minecraft:y",
         "max_exclusive": 102.0,
-        "min_inclusive": -250.0,
+        "min_inclusive": -256.0,
         "when_in_range": {
           "type": "minecraft:noise",
           "noise": "minecraft:ore_veininess",
@@ -2421,11 +2421,11 @@
         "if_true": {
           "type": "minecraft:vertical_gradient",
           "false_at_and_above": {
-            "absolute": 12
+            "absolute": 16
           },
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": -24
+            "absolute": -28
           }
         },
         "then_run": {

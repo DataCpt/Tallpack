@@ -35,14 +35,14 @@
     "horizontal_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {
-        "max_exclusive": 3.5,
+        "max_exclusive": 3.65,
         "min_inclusive": 0.5
       }
     },
     "lava_level": {
       "above_bottom": 0
     },
-    "probability": 0.24,
+    "probability": 0.26,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
@@ -57,13 +57,13 @@
         "absolute": 128
       },
       "min_inclusive": {
-        "above_bottom": 0
+        "above_bottom": -280
       }
     },
     "yScale": {
       "type": "minecraft:uniform",
       "value": {
-        "max_exclusive": 2.35,
+        "max_exclusive": 2.6,
         "min_inclusive": 0.1
       }
     }

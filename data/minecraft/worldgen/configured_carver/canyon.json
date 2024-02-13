@@ -28,13 +28,13 @@
     "lava_level": {
       "above_bottom": 32
     },
-    "probability": 0.013,
+    "probability": 0.0135,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "shape": {
       "distance_factor": {
         "type": "minecraft:uniform",
         "value": {
-          "max_exclusive": 1.8,
+          "max_exclusive": 1.85,
           "min_inclusive": 0.4
         }
       },
@@ -70,7 +70,7 @@
         "absolute": 256
       },
       "min_inclusive": {
-        "absolute": -275
+        "above_bottom": -280
       }
     },
     "yScale": 7.75
